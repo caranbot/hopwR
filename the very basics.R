@@ -23,7 +23,7 @@
 
 5-
   
-1                  # R is wating for you to type the rest (Esc also a option)
+1                  # R is wating for you to type the rest (or Esc also a option)
 
 
 #----------------------#
@@ -78,13 +78,28 @@
 ####--------------------------------------------------------------------------####
 
 #----------------------#
-# Vector
+# Vector (one-dimensional set of numbers)
 
 1:6
 
+#----------------------#
+# Create an object in r
+
+a <- 1
+a
 
 
+#----------------------#
+# Use defined object
 
+a + 2
+
+
+#----------------------#
+# Define a vector
+
+die <- 1:6
+die                # object will appear in environment
 
 
 
