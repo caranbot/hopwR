@@ -12,10 +12,12 @@
 
 1+1                
 
+
 #----------------------#
 # Sequence
 
 100:130            # returns 31 values with a sequence of int
+
 
 #----------------------#
 # Multiline Command
@@ -24,10 +26,44 @@
  
 1                  # R is wating for you to type the rest (Esc also a option)
 
+
 #----------------------#
 # Errors
 
 3 % 5              
 
+
 #----------------------#
+# R as calculator
+
+2*3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
