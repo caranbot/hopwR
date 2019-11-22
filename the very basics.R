@@ -102,25 +102,74 @@ die <- 1:6
 die                # object will appear in environment
 
 
+#----------------------#
+# Naming of objects
+
+# You can name an object in R almost anything you want, but there are 
+# a few rules. First, a name cannot start with a number. Second, a name 
+# cannot use some special symbols, like ^, !, $, @, +, -, /, or *
+# R is case-sensitive
+
+Name <- 1
+name <- 0
+
+Name + 1
 
 
+# Finally, R will overwrite any previous information stored in an object 
+# without asking you for permission. So, it is a good idea to not use
+# names that are already taken
+
+my_number <- 1
+my_number 
+
+my_number <- 999
+my_number
 
 
+#----------------------#
+# Check for object names you have already used
+
+ls()
+
+# or examine RStudio's environment pane
 
 
+#----------------------#
+# Manipulating die
+
+die - 1
+
+die / 2
+
+die * die
 
 
+# R does not follow the rules of matrix multiplication. Instead
+# R uses element-wise execution.
+
+# If you give R two vectors of unequal lengths, R will repeat 
+# the shorter vector until it is as long as the longer vector,
+# and then do the math.
+
+die + 1:2
+
+die + 4:1
 
 
+#----------------------#
+# Traditional matrix multiplication
+
+die %*% die        # inner multiplication
+die %o% die        # outer multiplication
+
+t(die) %*% die
+die %*% t(die)
 
 
-
-
-
-
-
-
-
+####--------------------------------------------------------------------------####
+####  Functions                                                               ####
+####--------------------------------------------------------------------------####
 
 
 
