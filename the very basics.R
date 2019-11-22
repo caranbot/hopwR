@@ -23,7 +23,7 @@
 
 5-
   
-  1                  # R is wating for you to type the rest (Esc also a option)
+1                  # R is wating for you to type the rest (Esc also a option)
 
 
 #----------------------#
@@ -46,10 +46,10 @@
 # Shortcuts:
 
 # Run selected lines              Ctrl + Enter
-# <-:                             Alt + -
+# <-:                             Alt  + -
 # Cancel Command:                 Ctrl + c
 # Clear Console:                  Ctrl + l
-# (Un)comment selected lines
+# (Un)comment selected lines      Ctrl + Shift + c
 
 
 #----------------------#
@@ -77,7 +77,10 @@
 ####  Objects                                                                 ####
 ####--------------------------------------------------------------------------####
 
+#----------------------#
+# Vector
 
+1:6
 
 
 
