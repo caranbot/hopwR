@@ -5,22 +5,25 @@ date: "26 11 2019"
 output: ioslides_presentation
 ---
 
-
 <style type="text/css">
-
-body{ /* Normal  */
-   font-size: 16px;
-}
 pre.lang-r{ /* Code block */
   font-size: 14px;
-}
-pre {
-  font-size: 14px
+  line-height: 10px;
+  margin-bottom: 10px;
+  width: 106%;
 }
 </style>
 
-
-
+<style>
+pre {
+  font-size: 14px;
+  line-height: 14px;
+  padding: 10px 0 10px 0px
+  margin-bottom: 10px;
+  width: 106%;
+  height: 50%
+}
+</style>
 
 
 ## Overview 
@@ -79,29 +82,25 @@ pre {
 
 
 ### Type in some commands 1
-<font size="1">
 ```{r, echo = TRUE}
 1 + 1
 100:130
 ```
-</font>
+
 
 ## 2.1 The R User Interface - Some Commands
 
 ```{r, echo = TRUE}
 5-
-
-1
++
++ 1
 ```
 ```{r, echo = TRUE, error = TRUE}
 3 % 5
 ```
 
-## 2.1 The R User Interface - Some Commands
-
 ```{r, echo = TRUE}
 2 * 3
-4 - 1
 6 / (4 - 1)
 ```
 
@@ -115,18 +114,30 @@ pre {
   
 ## 2.1 The R User Interface - Exercise
 ### Solution
-.tiny[
+
 ```{r}
 10 + 2
 12 * 3
 36 - 6
 30 / 3
 ```
-]
 
+## 2.2 Objects
+
+The : operator returns its results as a vector, a one-dimensional set of numbers.
+
+```{r}
+1:6
+```
+
+Running 1:6 generated a vector of numbers for you to see, but it didn’t save that vector anywhere in your computer’s memory.
+
+You’ll have to ask your computer to save them somewhere. You can do that by creating an R object.
 ## Slide with Plot
 
 ```{r pressure}
 plot(pressure)
 ```
+
+
 
