@@ -133,6 +133,66 @@ The : operator returns its results as a vector, a one-dimensional set of numbers
 Running 1:6 generated a vector of numbers for you to see, but it didn’t save that vector anywhere in your computer’s memory.
 
 You’ll have to ask your computer to save them somewhere. You can do that by creating an R object.
+
+## 2.2 Objects
+
+R lets you save data by storing it inside an R object.
+
+What is an object?
+
+Just a name that you can use to call up stored data.
+
+```{r}
+a <- 1
+a
+
+a + 2
+```
+
+## 2.2 Objects
+
+Create an object named die
+
+```{r}
+die <- 1:6
+die
+```
+
+Check the environment
+
+## 2.2 Objects
+### Naming rules 1
+  - You can name an object in R almost anything you want, but there are a few rules. First, a name cannot start with a number. Second, a name cannot use some special symbols, like ^, !, $, @, +, -, /, or *
+  
+## 2.2 Objects
+### Naming rules 2   
+  - R is case-sensitive, so name and Name will refer to different objects:
+```{r}
+Name <- 1
+name <- 0
+
+Name + 1
+```
+  - R will overwrite any previous information stored in an object without asking you for permission.
+```{r}
+my_number <- 1
+my_number 
+
+my_number <- 999
+my_number
+```
+
+## 2.2 Objects
+  - You can see which object names you have already used with the function ls:
+```{r}
+ls()
+```
+
+  - You can also see which names you have used by examining RStudio’s environment pane.
+
+
+
+
 ## Slide with Plot
 
 ```{r pressure}
