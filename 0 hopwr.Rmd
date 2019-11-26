@@ -1,0 +1,26 @@
+---
+title: "0 hopwr"
+author: "Carlo Bottega"
+date: "26 11 2019"
+output: ioslides_presentation
+---
+
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
