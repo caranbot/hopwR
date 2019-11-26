@@ -6,6 +6,23 @@ output: ioslides_presentation
 ---
 
 
+<style type="text/css">
+
+body{ /* Normal  */
+   font-size: 16px;
+}
+pre.lang-r{ /* Code block */
+  font-size: 14px;
+}
+pre {
+  font-size: 14px
+}
+</style>
+
+
+
+
+
 ## Overview 
 - Part 0
   - 0.1 Install latest Versions of R and RStudio
@@ -31,19 +48,81 @@ output: ioslides_presentation
   - Programming skills related to data science
 </div>
 
+# Part 0
+## 0.1 Install latest Versions of R and Rstudio
+
+  - https://cran.r-project.org/
+  - https://rstudio.com/
+  
+  - https://rstudio.com/resources/cheatsheets/
+
+# Part 1 
 ## 1 Project 1: Weighted Dice
 
   - Over the course of the book, you will use R to build three virtual objects
     - a pair of dice that you can roll to generate random numbers
     - a deck of cards that you can shuffle and deal from
     - and a slot machine modeled after some real-life video lottery terminals
+    
+    - These projects provide concrete examples for learning all of the components of R programming: objects, data types, classes, notation, functions, environments, if trees, loops, and vectorization
 
 
-## The R User Interface
+## 2 The Very Basics
+  - You will build a pair of virtual dice that you can use to generate random numbers
+  
+## 2.1 The R User Interface
 
-```{r cars, echo = TRUE}
+  - RStudio gives you a way to talk to your computer
+  - R gives you a language to speak in
+  - The RStudio interface is simple
+  - The code you type is called a command
 
+
+### Type in some commands 1
+<font size="1">
+```{r, echo = TRUE}
+1 + 1
+100:130
 ```
+</font>
+
+## 2.1 The R User Interface - Some Commands
+
+```{r, echo = TRUE}
+5-
+
+1
+```
+```{r, echo = TRUE, error = TRUE}
+3 % 5
+```
+
+## 2.1 The R User Interface - Some Commands
+
+```{r, echo = TRUE}
+2 * 3
+4 - 1
+6 / (4 - 1)
+```
+
+## 2.1 The R User Interface - Exercise
+### Magic with numbers
+
+  - Choose any number and add 2 to it.
+  - Multiply the result by 3.
+  - Subtract 6 from the answer.
+  - Divide what you get by 3.
+  
+## 2.1 The R User Interface - Exercise
+### Solution
+.tiny[
+```{r}
+10 + 2
+12 * 3
+36 - 6
+30 / 3
+```
+]
 
 ## Slide with Plot
 
