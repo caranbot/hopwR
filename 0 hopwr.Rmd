@@ -1,21 +1,48 @@
 ---
-title: "0 hopwr"
+title: "Hands-On Programming with R"
 author: "Carlo Bottega"
 date: "26 11 2019"
 output: ioslides_presentation
 ---
 
 
-## Slide with Bullets
+## Overview 
+- Part 0
+  - 0.1 Install latest Versions of R and RStudio
+- Part 1
+  - 1 Project 1: Weighted Dice
+  - 2 The Very Basic
+  - 3 Packages and Help Pages
+- Part 2
+  - 4 Project 2: Playing Cards
+  - 5 R Objects
+  - 6 R Notation
+  - 7 Modifying Values
+  - 8 Environments
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+## Preface
 
-## Slide with R Output
+<div class="columns-2">
+  ![](cover.png)
+  
+  
+  - How to program in R
+  - From loading data to writing your own functions
+  - Programming skills related to data science
+</div>
+
+## 1 Project 1: Weighted Dice
+
+  - Over the course of the book, you will use R to build three virtual objects
+    - a pair of dice that you can roll to generate random numbers
+    - a deck of cards that you can shuffle and deal from
+    - and a slot machine modeled after some real-life video lottery terminals
+
+
+## The R User Interface
 
 ```{r cars, echo = TRUE}
-summary(cars)
+
 ```
 
 ## Slide with Plot
